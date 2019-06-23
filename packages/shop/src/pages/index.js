@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
             <ItemCard key={edge.node.id} data={edge.node} slug="item" />
           ))}
       </ItemCardWrapper>
-      <Link to="/blog/">Go to Blog</Link>
+      <a href={process.env.BLOG_URL}>Back to Blog</a>
     </div>
   );
 };

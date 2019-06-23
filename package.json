@@ -2,6 +2,10 @@
   "name": "lerna-monorepo-starter",
   "description": "Lerna monorepo starter",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "author": "Andrico Karoulla <karoulla.andrico@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
